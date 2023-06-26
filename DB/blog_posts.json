@@ -1,0 +1,30 @@
+[
+    {
+        "id_": 1,
+        "author": "John Doe",
+        "title": "First Post",
+        "content": "This is my first post.",
+        "like": 2
+    },
+    {
+        "id_": 2,
+        "author": "Jane Doe",
+        "title": "Second Post",
+        "content": "This is another post.",
+        "like": 1
+    },
+    {
+        "id_": 3,
+        "author": "Joe Doe",
+        "title": "Happy today",
+        "content": "Today is the the best day!!",
+        "like": 3
+    },
+    {
+        "id_": 6,
+        "author": "Joe Doe",
+        "title": "Hey",
+        "content": "Hello, motherfucker!",
+        "like": 4
+    }
+]

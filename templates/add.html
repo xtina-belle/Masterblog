@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Post</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="post">
+    <form method="POST" action="/add">
+        <label for="title">Title:</label><br>
+        <p><input type="text" id="title" name="title"><br></p>
+        <label for="content">Content:</label><br>
+        <p><textarea id="content" name="content"></textarea><br></p>
+        <input type="submit" value="Add Post">
+    </form>
+</div>
+</body>
+</html>
